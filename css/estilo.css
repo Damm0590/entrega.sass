@@ -1,0 +1,27 @@
+html {
+  background-color: steelblue; }
+
+header {
+  background-color: darkslategrey;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  font-size: 2rem; }
+
+a {
+  color: lawngreen; }
+
+h1 {
+  color: gray;
+  background-color: steelblue;
+  text-align: center;
+  font-size: 35px; }
+
+footer {
+  background-color: darkblue;
+  color: royalblue;
+  font-size: small;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around; }
