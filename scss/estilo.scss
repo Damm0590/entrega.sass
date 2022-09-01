@@ -1,29 +1,55 @@
+@import "variables";
+/*SASS*/
 html {
     background-color: steelblue;
 }
 
+/*NAV BAR*/
+a {
+    color:lawngreen;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*ENCABEZADO*/
 header {
-    background-color: darkslategrey;
+    /*background-color: darkslategrey;*/
+    background-color: $color-principal;
     display: flex;
     align-content: center;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: $tamaño-fuente;
 }
 
-a {
-    color:lawngreen;
+/*CONTENEDOR*/
+div {
+    background-color: black;
+}
+
+img {
+    display: flex;
+    padding: 5px;
+    background-color: black;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
-    color: grayscale($color: yellow);
-    background-color: steelblue;
+    color: lawngreen;
+    background-color: darkslateblue;
     text-align: center;
     font-size: 35px;
+    font-weight: bold;
+
+    &:hover {
+        background-color: darkmagenta;
+    }
 }
 
+/*FOOTER*/
 footer {
-    background-color: darkblue;
-    color: royalblue;
+    background-color: darkslateblue;
+    color:darkturquoise ;
     font-size: small;
     display: flex;
     text-align: center;
